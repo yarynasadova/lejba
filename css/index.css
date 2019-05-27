@@ -2,15 +2,13 @@
 
 :root {
     --main-color: black;
-    --highlight-color: #C0C0C0;
-    --background-color: white;
     scroll-behavior: smooth;
 }
 
-body {
-    max-width: 980px;
+/*body {
+    max-width: 1200px;
     margin: auto;
-}
+}*/
 
 header .banner {
     background-image: url(../img/05.jpg);
@@ -27,9 +25,10 @@ header .banner h1 {
     /*font-family: 'IBM Plex Serif', serif;*/
     font-family: 'Pangolin', cursive;
     font-size: 5rem;
-    color:  #2F4F4F;
+    color: #2F4F4F;
     background-color: #F5F5F5;
-    background: rgba(255,245,215,.7);
+    background: rgba(255, 245, 215, .7);
+    padding-left: inherit;
 }
 
 .menu {
@@ -41,6 +40,7 @@ header .banner h1 {
 
 
 header .menu ul {
+    margin-top: 0;
     padding: 0;
     list-style-type: none;
     justify-content: space-around;
@@ -55,20 +55,20 @@ header .menu ul li a {
     color: var(--main-color);
     text-decoration: none;
     text-transform: uppercase;
-    padding:10px;
+    padding: 10px;
     border: 1px solid;
-    
+
     font-family: 'Pangolin', cursive;
     font-size: 2rem;
     color: black;
     background-color: #F5F5F5;
-    
+
 }
 
 header .menu ul li a:hover {
-    border: 1px solid var(--highlight-color);
+    border: 1px black; /*(--highlight-color);*/
 }
-    
+
 @media (min-width: 450px) {
     header .menu {
         display: flex;
