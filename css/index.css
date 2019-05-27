@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
 :root {
-    --main-color: black;
     scroll-behavior: smooth;
 }
 
@@ -33,7 +32,6 @@ header .banner h1 {
 
 .menu {
     display: flex;
-    /*background-color: red;*/
     align-items: center;
     justify-content: center;
 }
@@ -52,7 +50,7 @@ header .menu ul li {
 }
 
 header .menu ul li a {
-    color: var(--main-color);
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
