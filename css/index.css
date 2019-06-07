@@ -1,74 +1,181 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
 :root {
+
     scroll-behavior: smooth;
+
+    font-family: 'IBM Plex Serif', serif;
+    --main colour: black;
+    --highlight-color: RGB #808080;
+    --background-color: white;
 }
 
-/*body {
+body {
     max-width: 1200px;
+
     margin: auto;
-}*/
+
+}
 
 header .banner {
+
     background-image: url(../img/05.jpg);
+
     min-height: 300px;
+
     background-position: center;
+
     background-size: cover;
+
     text-align: center;
+
     align-items: center;
+
     justify-content: center;
+
     display: flex;
+
 }
 
 header .banner h1 {
-    /*font-family: 'IBM Plex Serif', serif;*/
+
+    font-family: 'IBM Plex Serif', serif;
+
     font-family: 'Pangolin', cursive;
+
     font-size: 5rem;
+
     color: #2F4F4F;
+
     background-color: #F5F5F5;
+
     background: rgba(255, 245, 215, .7);
+
     padding-left: inherit;
+
 }
 
-.menu {
+header .menu {
+
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
+    align-items: center;
+
+    justify-content: center;
+
+
+}
 
 header .menu ul {
-    margin-top: 0;
-    padding: 0;
-    list-style-type: none;
-    justify-content: space-around;
-    display: flex;
-}
 
-header .menu ul li {
-    /*width: 100%;*/
+    margin-top: 0;
+
+    padding: 0;
+
+    list-style-type: none;
+
+    justify-content: space-around;
+
+    display: flex;
+    
+    flex-wrap: wrap;
+
 }
 
 header .menu ul li a {
+
     color: black;
+
     text-decoration: none;
+
     text-transform: uppercase;
+
     padding: 10px;
+
     border: 1px solid;
 
     font-family: 'Pangolin', cursive;
+
     font-size: 2rem;
+
     color: black;
+
     background-color: #F5F5F5;
+    
+    line-height: 75px;
 
 }
 
 header .menu ul li a:hover {
-    border: 1px black; /*(--highlight-color);*/
+
+    border: 1px solid black;
+
 }
 
 @media (min-width: 450px) {
+
     header .menu {
+
         display: flex;
-        /*align-items: center;*/
+
+
     }
+
+main h2 {
+    text-align: center;
+     clear: both;
+}
+
+main h3 {
+    text-align: center;
+     clear: both;
+}
+    
+main .one img {
+    float: left;
+    margin-right: 10px;
+    clear: both;
+}
+
+main .two img {
+    float: left;
+    margin-right: 10px;
+    clear: both;
+}
+
+main .three img {
+    float: left;
+    margin-right: 10px;
+    clear: both;
+}
+
+main .four img {
+    float: left;
+    margin-right: 10px;
+    clear: both;
+}
+
+main .five img {
+     float: left;
+    margin-right: 10px;
+    clear: both;
+}
+
+main .socialNetwork {
+    float: center;
+    display: flex;
+    align-items: center;
+}
+
+.adress, .telephone, .form {
+    float: left;
+    width: 33%;
+    clear: both;
+    
+}
+
+footer {
+    
+    align-items: center;
+    
+}
